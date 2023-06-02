@@ -7,7 +7,7 @@ async function GetDataFrom_API() {
     const jsonData = await response.json();
     // console.log(jsonData)
     document.getElementById('display-data').innerHTML = jsonData.map((issue)=>{ 
-        return  `<ol> <span id='issue-num'> Issue Num : ${issue.number} </span> <br> <span id='issue-title'> Issue type :</span> ${issue.title} </span> <hr></hr> </ol>`}).join('')  
+        return  `<ol> <p id='issue-num'> Issue Num : ${issue.number} </p>  <span id='issue-title'> Issue type :</span> ${issue.title} </span> <hr></hr> </ol>`}).join('')  
 }
 GetDataFrom_API()
 

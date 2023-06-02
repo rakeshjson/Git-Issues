@@ -1,0 +1,54 @@
+body{
+    margin:1px 1px 0px 1px; 
+    background-color: rgb(236, 217, 190);
+}
+
+#main-container{
+    text-align: center;
+}
+
+#section-1{
+    height: 520px;
+}
+#heading{
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: rgb(2, 113, 8);
+}
+
+#pageNumber{
+    padding: 8px;
+    margin: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    background-color: rgb(255, 183, 147);
+}
+
+
+
+#section-2{
+    padding: 5px;
+    background-color: rgb(221, 189, 109);
+}
+
+#issue-num{
+    color: rgb(195, 25, 184);
+}
+
+#issue-title{
+    font-style: italic;
+    color: rgb(52, 111, 0);
+}
+
+.btn{
+    margin-left: 5px;
+    font-style: italic;
+    font-size: 16px;
+    padding: 3px 15px 3px 15px;
+    color: rgb(251, 253, 251);
+    background-color: rgb(163, 8, 174);
+    border-start-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
